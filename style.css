@@ -1,0 +1,78 @@
+
+
+ body {
+    text-align: center;
+    background-color: #1a1a1a; /* Darker background */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #F5F5F5;
+    font-size: 40px;
+    margin-top: 40px; /* Add some spacing from the top */
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px; /* Add some spacing from the top */
+}
+
+th, td {
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2a2a2a; /* Darker input background */
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+button {
+    min-width: 120px;
+    margin: 20px 10px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #4CAF50; /* Green button */
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; /* Add some spacing from the top */
+}
+
+.heading {
+    color: #F5F5F5;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px; /* Add some spacing from the top */
+}
+
+.time {
+    background-color: #333; /* Darker background */
+    color: #FFFFFF;
+    font-size: 80px; /* Slightly smaller font size */
+    width: 150px;
+    margin: 0 10px;
+    padding: 20px 0; /* Adjust padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
